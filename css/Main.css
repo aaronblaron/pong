@@ -1,0 +1,25 @@
+#control {
+	float:left;
+	background:gray;
+	width:25%;
+	height:100%;
+}
+
+#newGame {
+	float:left;
+	width:40%;
+	color:red;
+}
+
+#oldGame {
+	float:right;
+	width:40%;
+	color:red;
+}
+
+#runningGame {
+	float:right;
+	background-color:black;
+	width:75%;
+	height:100%;
+}

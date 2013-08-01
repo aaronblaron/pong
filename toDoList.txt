@@ -1,0 +1,13 @@
+~align whole shebang in center
+
+~Make buttons not stay checked after two have been pushed
+
+~Add self generating unfinished games in scrolling div
+
+~add statistics
+
+~add table
+
+~add player custimization
+
+~add server-side pong logic
