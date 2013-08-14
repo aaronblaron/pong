@@ -1,0 +1,46 @@
+#control {
+	float:left;
+	background:gray;
+	width:30%;
+	height:100%;
+}
+
+#newGame {
+	width:48%;
+	height:50%;
+	float:left;
+	margin-left:4;
+}
+#newGameText {
+	text-align:center;
+	color:white;
+	margin:4;
+	font-size:medium;
+}
+#newGameSelect {
+	width:100%;
+	font-size:medium;
+}
+
+#oldGames {
+	float:right;
+	width:48%;
+	height:20%;
+	margin-right:4;
+}
+#oldGamesText {
+	text-align:center;
+	color:white;
+	margin:4;
+	font-size:medium;
+}
+#oldGamesSelect {
+	width:100%;
+}
+
+#runningGame {
+	float:right;
+	background-color:white;
+	width:70%;
+	height:100%;
+}

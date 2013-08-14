@@ -1,0 +1,17 @@
+uses GAE.
+
+Do:
+
+~control = 0
+	~Make buttons not stay checked after two have been pushed = 0
+	~self generating unfinished games in scrolling div = 0
+	~statistics = 0
+
+~runningGame = 0
+	~pong table = 0
+	~server-side pong logic = part
+		~get server = part //needs to return oposite if over 11 points
+	
+	~server-side data management = part
+		~as list = 1
+		~point = part //needs to recognize victory

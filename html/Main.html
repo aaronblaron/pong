@@ -1,0 +1,38 @@
+<html>
+	<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="/bootstrap/js/bootstrap.min.js"></script>
+
+	<script src="/js/Main.js"></script>
+	<link href="/css/Main.css" rel="stylesheet">
+
+	<body>
+		<div id="content">
+			<div id="control">
+				<div id="newGame">
+				  <div id="newGameText">Select Challenger:</div>
+					<div id="newGameSelect" class="btn-group-vertical" data-toggle="buttons">
+						<button type="button" class="btn btn-default" onclick="CONTROL.PlayerRoster.register('AB');">AB
+						<button type="button" class="btn btn-default" onclick="CONTROL.PlayerRoster.register('PR');">PR
+						<button type="button" class="btn btn-default" onclick="CONTROL.PlayerRoster.register('AS');">AS
+						<button type="button" class="btn btn-default" onclick="CONTROL.PlayerRoster.register('DD');">DD
+						<button type="button" class="btn btn-default" onclick="CONTROL.PlayerRoster.register('JD');">JD
+					</div>
+				</div>
+				<div id="oldGames">
+					<div id="oldGamesText">Unfinished Games:</div>
+					<div id="oldGamesSelect" class="btn-group-vertical">
+					</div>
+				</div>
+			</div>
+			<div id="runningGame">
+				<div id="player1Field">
+					<button id="p2Point" onclick="GAME.Game.point('player2');">Point for p2</button>
+				</div>
+				<div id="player2Field">
+					<button id="p1Point" onclick="GAME.Game.point('player1');">point for p1</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
