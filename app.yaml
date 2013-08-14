@@ -16,7 +16,11 @@ handlers:
   static_dir: css
 
 - url: /.*
+<<<<<<< HEAD
   script: pong.application
+=======
+  script: pongography.application
+>>>>>>> 172333e0bf521436d8aea119f089a4f8f950fd2a
 
 
 libraries:

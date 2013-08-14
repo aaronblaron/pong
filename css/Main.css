@@ -1,11 +1,16 @@
 #control {
 	float:left;
 	background:gray;
+<<<<<<< HEAD
 	width:30%;
+=======
+	width:25%;
+>>>>>>> 172333e0bf521436d8aea119f089a4f8f950fd2a
 	height:100%;
 }
 
 #newGame {
+<<<<<<< HEAD
 	width:48%;
 	height:50%;
 	float:left;
@@ -36,11 +41,27 @@
 }
 #oldGamesSelect {
 	width:100%;
+=======
+	float:left;
+	width:40%;
+	color:red;
+}
+
+#oldGame {
+	float:right;
+	width:40%;
+	color:red;
+>>>>>>> 172333e0bf521436d8aea119f089a4f8f950fd2a
 }
 
 #runningGame {
 	float:right;
+<<<<<<< HEAD
 	background-color:white;
 	width:70%;
+=======
+	background-color:black;
+	width:75%;
+>>>>>>> 172333e0bf521436d8aea119f089a4f8f950fd2a
 	height:100%;
 }

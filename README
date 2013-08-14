@@ -2,6 +2,7 @@ uses GAE.
 
 Do:
 
+<<<<<<< HEAD
 ~control = 0
 	~Make buttons not stay checked after two have been pushed = 0
 	~self generating unfinished games in scrolling div = 0
@@ -15,3 +16,18 @@ Do:
 	~server-side data management = part
 		~as list = 1
 		~point = part //needs to recognize victory
+=======
+~align whole shebang in center
+
+~Make buttons not stay checked after two have been pushed
+
+~Add self generating unfinished games in scrolling div
+
+~add statistics
+
+~add pong table
+
+~add player custimization
+
+~add server-side pong logic
+>>>>>>> 172333e0bf521436d8aea119f089a4f8f950fd2a
